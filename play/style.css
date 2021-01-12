@@ -1,0 +1,39 @@
+.pointers {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.circle--blue {
+    background: blue;
+    align-self: flex-end;
+    order: 2;
+}
+
+.circle--red {
+    background: red;
+    order: 3; 
+}
+
+.circle--black {
+    background: black;
+    order: 4;   
+    
+}
+
+.circle--green {
+    background: green;
+    order: 1;
+
+}
+

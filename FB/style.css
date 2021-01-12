@@ -1,0 +1,168 @@
+.container {
+    /*  display: */
+    /*  justify-content: */
+    display: flex;
+    justify-content: center;
+
+      background-color: #F0F2F5;
+      padding: 20px;
+      font-family: "Segoe UI Historic";
+      font-size: 15px;
+      font-weight: 400;
+    }
+    
+    .post {
+      width: 500px;
+      background-color: white;
+      border-radius: 4px;
+      padding: 12px;
+    }
+    
+    .header {
+        /*  display: */
+        display: flex;
+
+
+    }
+    
+    .header > .photo img {
+    /*  flex: */
+        flex: 0;
+
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    
+    .info {
+    /*  flex:  */
+        flex: 1;
+
+      padding-left: 6px;
+    }
+    
+    .info > .time-ago {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .image > img {
+      width: 524px;
+      margin: 10px -12px 0 -12px;
+    }
+    
+
+
+    .likes {
+      cursor: pointer;
+    }
+    
+    .likes > .like-icon {
+      width: 24px;
+      margin-top: 5px;
+    }
+    
+    .likes > .love-icon {
+      /*  position:  */
+        position: relative;
+
+      top: -4px;
+      width: 16px;
+      margin-left: -8px;
+    }
+    
+    .likes > span {
+    /*  position:  */
+        position: relative;    
+
+      top: -7px;
+
+    }
+    
+
+
+
+
+    .buttons {
+    /*  display:  */
+        display: flex;
+        justify-content: space-around;
+
+      margin-top: 4px;
+      border-width: 1px;
+      border-color: #ddd;
+      border-style: solid none;
+    }
+    
+    .buttons img {
+      width: 20px;
+      opacity: 0.5;
+      margin-right: 4px;
+    }
+    
+    .like, .comment {
+    /*  flex:  */
+    /*  display:  */
+    /*  justify-content:  */
+        display: flex;
+        flex: 1;
+        justify-content: center;
+
+      padding: 8px;
+    }
+    
+
+
+    
+    .like:hover, .comment:hover {
+      background-color: #ddd;
+      cursor: pointer;
+    }
+    
+    .comments-section {
+    /*  display:  */
+        display: flex;
+
+      margin-top: 6px;
+    }
+    
+    .comments-section > .photo {
+    /*  flex:   */
+    flex: 0;
+    }
+    
+    .comments-section img {
+      width: 32px;
+      border-radius: 16px;
+    }
+    
+    .comments-section > .input {
+    /*  flex:   */
+            flex: 1;
+
+
+      padding-right: 10px;
+    }
+    
+    .comments-section input {
+      width: 100%;
+      background-color: #F0F2F5;
+      border: none;
+      height: 32px;
+      border-radius: 16px;
+      padding-left: 10px;
+    }
+    
+    .comments-section input:focus {
+      outline: none;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
